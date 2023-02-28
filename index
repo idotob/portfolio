@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>idotob's portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Developer: Oluwatobi Idowu">
+    <meta name="robot" content="index, follow">
+    <meta name="keyword" content="portfolio, design, 'web design portfolio', 'my portfolio'">
+
+    <!--- link for icons --->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="logo-nav">
+      <div>
+        <p>IDOTOB</p>
+      </div>
+
+      <div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact"><button>Contact</button></a></li>
+          </ul>
+
+          <button name="menu" id="menu__icon"><i class="uil uil-bars"></i></button>
+        </nav>
+      </div>
+    </header>
+
+    <div class="first"> <!-- Houses the hero -->
+      <div id="overlay">
+        <h1>Welcome To My Portfolio</h1>
+        <p class="sub-title">I work together with you to help achieve your goal</p>
+
+        <form action="https://formspree.io/f/xrgvkegk" method="POST" id="contact">
+          <p id="ttm">Talk To Me</p>
+          <input type="text" placeholder="Full Name" id="fullname" name="fullname" required>
+          <input type="email" placeholder="E-mail" id="email" name="email" required>
+          <textarea placeholder="Write Your Message Here..." id="textarea" name="textarea" rows="5" cols="15" required></textarea>
+          <button type="submit" name="Submit" class="form-btn">Submit</button>
+          <small id="reach-me">You can reach me quickly through the box above</small>
+        </form>
+      </div>
+    </div>
+
+    <div class="about section" id="about"> <!-- House the About me -->
+      <div id="column1">
+        <img src="/images/Tobi.png" alt="tobi's photo">
+      </div>
+      <div id="column2">
+        <h1>Oluwatobi Idowu</h1>
+        <p>Responsive Web Designer with experience in WordPress and Shopify. I am familiar with Figma and I use it to sketch out my ideas and convert them into code using HTML5 for the structure and style it with various CSS approaches such as Flexbox, CSS-Grid, and so on. I have an advanced level of English and I can also speak and understand a little bit of French (A1- A2). Moreover, I am really interested in learning more and I am open to any opportunities.</p>
+        <p class="ready">Ready to relocate</p>
+      </div>
+    </div> <!--About me ends-->
+
+    <div class="projects section" id="projects"> <!-- House the Projects -->
+      <h1>Projects</h1>
+
+      <div class="all-projects">
+        <div class="project">
+          <h4>Visit Paris</h4>
+          <a href="https://idotob.github.io/paris/#"><img src="/images/Visit Paris.png" alt=""></a>
+        </div>
+        <div class="project">
+          <h4>Louna Marketing Agency</h4>
+          <a href="https://idotob.github.io/louna/#"><img src="/images/Louna Marketing Design.png" alt=""></a>
+        </div>
+        <div class="project">
+          <h4>Flosscode Veneers</h4>
+          <a href="https://flosscode.com/"><img src="/images/Flosscode.png" alt=""></a>
+        </div>
+        <div class="project">
+          <h4>Maria Emosional</h4>
+          <img src="/images/screencapture-mariaemosional-2023-01-22-11_34_06.png" alt="">
+        </div>
+        <div class="project">
+          <h4>Bri Unifying Apparel</h4>
+          <a href="https://bristepsforward.com/"><img src="/images/Bristepsforward.png" alt=""></a>
+        </div>
+        <div class="project">
+          <h4>GivingUTheWorks</h4>
+          <a href="https://givingutheworks.com/"><img src="/images/GivingUTheWorks.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <h3>Get In Touch</h3>
+    <a href="mailto:idotob393@gmail.com"><p class="mail">IDOTOB393@GMAIL.COM</p></a>
+
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/oluwatobi-idowu-0455a01b6/"><i class="uil uil-linkedin"></i></a>
+      <a href="tel: +234-808-227-5180"><i class="uil uil-whatsapp"></i></a>
+      <a href="https://www.instagram.com/tohbiiiii/"><i class="uil uil-instagram"></i></a>
+      <a href="https://www.behance.net/idotob"><i class="uil uil-behance"></i></a>
+    </div>
+    <p class="copyright">&copy Oluwatobi Idowu</p>
+  </footer>
+</html>
