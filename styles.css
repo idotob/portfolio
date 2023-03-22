@@ -240,7 +240,7 @@ form small {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1.2rem;
-  height: 80rem;
+  height: 125rem;
   padding: 1rem;
 }
 
