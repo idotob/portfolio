@@ -118,7 +118,7 @@ img {
 
 /*-- Hero --*/
 .first {
-  background-image: url(Hero Image.png);
+  background-image: url(/Hero Image.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
