@@ -414,10 +414,6 @@ footer a {
   }
 }
 
-@media screen and (max-width: 700px) {
-  
-}
-
 @media screen and (max-width: 600px) {
  .first h1 {
     font-size: var(--mobile-h1);
