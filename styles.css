@@ -463,6 +463,13 @@ footer a {
 
 /*----------------- MOBILE DEVICE ---------------*/
 @media screen and (max-width: 500px) {
+  img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  height: fit-content;
+}
+  
   #menu__icon {
     display: block;
     border: none;
