@@ -238,7 +238,6 @@ form small {
 
 .all-project img {
   width: 100%;
-  height: fit-content;
   display: block;
   object-fit: cover;
 }
