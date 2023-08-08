@@ -237,9 +237,11 @@ form small {
 }
 
 .all-project img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
+  
 }
 
 .all-projects {
