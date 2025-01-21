@@ -221,9 +221,8 @@ form small {
 }
 
 .about img {
-  width: 60%;
+  width: 80%;
   border-radius: 100%;
-  box-shadow: 0px 0px 18px rgba(1, 1, 18, 0.15);
 }
 
 /*-- Projects --*/
