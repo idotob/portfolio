@@ -301,7 +301,7 @@ footer h3 {
 
 footer .mail {
   font-size: 1.4rem;
-  background-color: white;
+  background-color: var(--main-color);
   color: var(--light);
   padding: 0rem 1rem;
   font-weight: 400;
