@@ -575,7 +575,7 @@ footer a {
 
   .all-projects {
     grid-template-columns: 1fr;
-    height: inherit;
+    height: 22rem;
   }
 
   .all-projects .project {
