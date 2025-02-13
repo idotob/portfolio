@@ -579,7 +579,7 @@ footer a {
   }
 
   .all-projects .project {
-    height: 40rem;
+    height: 15rem;
   }
 
   .all-projects .project::before {
@@ -625,7 +625,7 @@ footer a {
   }
 
   .all-projects .project {
-    height: 35rem;
+    height: 15rem;
   }
 
   .projects {
