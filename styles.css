@@ -234,8 +234,7 @@ form small {
 }
 
 .all-project img {
-  width: 50.5rem;
-  height: 39.5rem;
+  max-width: 100%;
   display: block;
   object-fit: cover;
 }
