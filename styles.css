@@ -244,7 +244,7 @@ form small {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1.2rem;
-  height: 100%;
+  height: 632px;
   padding: 1rem;
 }
 
