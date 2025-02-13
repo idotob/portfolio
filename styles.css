@@ -242,6 +242,7 @@ form small {
 .all-projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  height: 20rem;
   gap: 1.2rem;
   padding: 1rem;
 }
