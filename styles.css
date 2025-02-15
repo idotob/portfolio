@@ -5,7 +5,7 @@
   --light: #ffffff;
 
   /*-- Fonts --*/
-  --heading:"Karla", sans-serif;
+  --heading:'Eczar', serif;
   --body:'Roboto', sans-serif;
 
   --h1: 3rem;
@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-  font-weight: 600;
+  font-weight: 500;
   color: var(--main-color);
 }
 
