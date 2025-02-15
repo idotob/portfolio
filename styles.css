@@ -5,7 +5,7 @@
   --light: #ffffff;
 
   /*-- Fonts --*/
-  --heading:'Ubuntu', serif;
+  --heading:'Karla', serif;
   --body:'Roboto', sans-serif;
 
   --h1: 3rem;
@@ -32,7 +32,6 @@ body {
 h1 {
   font-weight: 500;
   color: var(--main-color);
-  line-height: 120%;
 }
 
 *, h1, h2, h3, h4, p {
