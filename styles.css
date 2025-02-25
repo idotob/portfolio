@@ -139,7 +139,8 @@ img {
 }
 
 #overlay {
-  background: rgba(73, 80, 62, 0.8);
+  /*background: rgba(73, 80, 62, 0.8);*/
+  background-color: #353638;
   z-index: 10;
   width: 1440px;
   display: flex;
