@@ -215,7 +215,7 @@ form small {
 
 .about p {
   margin-top: 2rem;
-  color: var(--light)
+  color: var(--body)
 }
 
 .about .ready {
