@@ -205,7 +205,7 @@ form small {
 
 .about {
   display: grid;
-  grid-template-columns: 43% 57%;
+  grid-template-columns: 40% 60%;
   background-color: var(--main-color)
 }
 
@@ -215,7 +215,7 @@ form small {
 
 .about p {
   margin-top: 2rem;
-  color: var(--body)
+  color: var(--text-body)
 }
 
 .about .ready {
