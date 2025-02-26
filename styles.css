@@ -58,6 +58,7 @@ p {
   font-size: 1rem;
   font-family: var(--body);
   line-height: 200%;
+  color: var(--body)
 }
 
 img {
