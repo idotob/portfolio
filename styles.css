@@ -484,9 +484,9 @@ footer a {
   #menu__icon {
     display: block;
     border: none;
-    background-color: var(--light);
+    background-color: var(--main-color);
     font-size: 2rem;
-    color: var(--main-color);
+    color: var(--light);
   }
 
   h1 {
@@ -537,7 +537,7 @@ footer a {
   }
 
   #overlay {
-    padding: 7rem 2rem 5rem;
+    padding: 5rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
