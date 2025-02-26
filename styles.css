@@ -141,7 +141,7 @@ img {
 
 #overlay {
   /*background: rgba(73, 80, 62, 0.8);*/
-  background-color: --main-color;
+  background-color: var(--main-color);
   /*z-index: 10;*/
   width: 1440px;
   display: flex;
@@ -202,6 +202,7 @@ form small {
 .about {
   display: grid;
   grid-template-columns: 43% 57%;
+  background-color: var(--main-color)
 }
 
 .about h1 {
