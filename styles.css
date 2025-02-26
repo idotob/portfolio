@@ -227,7 +227,8 @@ form small {
 
 .about img {
   width: 80%;
-  /*border-radius: 100%;*/
+  border-radius: 100%;
+  border: 1px solid var(--text-body)
 }
 
 /*-- Projects --*/
