@@ -81,6 +81,7 @@ img {
 #logo-nav p {
   font-weight: 500;
   font-size: 1.5rem;
+  color: var(--light)
 }
 
 .nav-links {
