@@ -1,7 +1,8 @@
 :root {
   /*-- Colors --*/
   /*--main-color: #49503E;*/
-  --main-color: #282A2E;
+ /* --main-color: #282A2E;*/
+  --main-color: #232627;
   --text-body: #353638;
   --light: #ffffff;
 
@@ -140,7 +141,7 @@ img {
 
 #overlay {
   /*background: rgba(73, 80, 62, 0.8);*/
-  background-color: #353638;
+  background-color: --main-color;
   /*z-index: 10;*/
   width: 1440px;
   display: flex;
